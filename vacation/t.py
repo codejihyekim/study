@@ -71,7 +71,7 @@ for these in [train, test]:
     these['Designation'] = these['Designation'].map({'AVP': 0, 'VP': 1, 'Manager': 2, 'Senior Manager':3, 'Executive': 4})
 
 # 결측치 처리
-ls = [ 'Age', 'TypeofContact', 'DurationOfPitch', 'PreferredPropertyStar']
+ls = ['Age', 'TypeofContact', 'DurationOfPitch', 'PreferredPropertyStar']
 for these in [train, test]:
     for col in ls:
         these[col].fillna(0, inplace=True)
