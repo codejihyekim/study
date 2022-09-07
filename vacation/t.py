@@ -22,7 +22,6 @@ train = pd.read_csv('./data/train.csv')
 test = pd.read_csv('./data/test.csv')
 sample_submission = pd.read_csv('./data/sample_submission.csv')
 
-
 # 데이터 확인
 # ic(train.info())
 
